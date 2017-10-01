@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f222e250f7eb1cd4654b65bf864094c",
+    "content-hash": "dc3dc7263d42545909134ebbc2925f25",
     "packages": [
         {
             "name": "composer/installers",
@@ -294,6 +294,20 @@
             "time": "2017-07-17T20:41:59+00:00"
         },
         {
+            "name": "rafalfaro18/rar-example-plugin",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/rafalfaro18/rar-example-plugin/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "roots/wp-password-bcrypt",
             "version": "1.0.0",
             "source": {
@@ -411,7 +425,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.zip?timestamp=1505842784",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
