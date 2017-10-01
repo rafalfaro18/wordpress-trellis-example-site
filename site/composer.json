@@ -42,7 +42,7 @@
           "url": "https://github.com/rafalfaro18/rar-example-plugin/archive/master.zip"
         },
         "require" : {
-          "composer/installers": "v1.0.6"
+          "composer/installers": "^1.4"
         }
       }
     }
