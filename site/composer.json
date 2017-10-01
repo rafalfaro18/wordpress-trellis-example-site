@@ -32,8 +32,19 @@
       "url": "https://wpackagist.org"
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/rafalfaro18/rar-example-plugin"
+      "type": "package",
+      "package": {
+        "name": "rafalfaro18/rar-example-plugin",
+        "version": "1.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/rafalfaro18/rar-example-plugin/archive/master.zip"
+        },
+        "require" : {
+          "composer/installers": "v1.0.6"
+        }
+      }
     }
   ],
   "require": {
